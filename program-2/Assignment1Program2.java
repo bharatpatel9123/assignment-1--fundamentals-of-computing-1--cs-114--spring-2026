@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Assignment1Program2 {
   public static void main(String[] args) {
     Scanner userinput = new Scanner(System.in);
-
+    
         System.out.print("Please enter a base (2-9): ");
         int base = userinput.nextInt();
 
@@ -28,6 +28,6 @@ public class Assignment1Program2 {
         System.out.println("\n" + usernumber + " (base 10) = " + digit1 + digit2 + digit3 + digit4 + " (base " + base + ")");
         
         userinput.close();
-        
+
   }
 }
